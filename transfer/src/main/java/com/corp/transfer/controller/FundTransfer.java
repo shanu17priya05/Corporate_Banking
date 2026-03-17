@@ -29,10 +29,6 @@ public class FundTransfer {
         //else all above condition is passed then save the data to db and send amount deduction request to the account service
         //Also write to the outbox table.
 
-
-
-
-
         return new ResponseEntity<>(txnSummary,HttpStatus.OK);
     }
 }
