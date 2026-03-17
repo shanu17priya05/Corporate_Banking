@@ -1,0 +1,9 @@
+server:
+  port: 8751
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false #property so that server is not required to call server itself. If true service will register itself to the eureka server
+    fetch-registry: false
